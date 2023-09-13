@@ -18,7 +18,7 @@ while True:
     opcao = input (menu)
 
     if opcao == "d":
-        valor = float(input("Informe seu valor de deposito: d=> "))
+        valor = float(input("Informe seu valor de deposito: "))
 
         if valor > 0:
             saldo += valor
@@ -54,6 +54,6 @@ while True:
     elif opcao == "q":
         break
     else:
-        print("Operação ivalida, por favor selecione novamente a operação desejada.")
+        print("Operação invalida, por favor selecione novamente a operação desejada.")
 
 
